@@ -85,9 +85,9 @@ const App = () => {
       </div>
       {selCity && (
         <p style={{ fontWeight: "bold", textAlign: "center" }}>
-          You selected <span style={{ fontSize: "25px" }}>{selCity},</span>
+          You selected <span style={{ fontSize: "25px" }}>{selCity}, </span>
           <span style={{ color: "gray" }}>
-            {selState},{selCountry}
+            {selState}, {selCountry}
           </span>
         </p>
       )}
